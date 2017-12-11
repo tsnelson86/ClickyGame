@@ -1,0 +1,116 @@
+.headerBlock {
+    background: #666666;
+    color: #000;
+    min-height: 70px;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    margin-bottom: 0;
+}
+
+.headerBlock ul {
+    margin: 0;
+    padding: 0;
+}
+
+.headerBlock li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 33.3%;
+    text-align: center;
+}
+
+.headerBlock a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+}
+
+.heroBlock {
+    background-image: url(/background.png);
+    color: #fff;
+    min-height: 400px;
+    padding: 180px 20px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.heroBlock h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 8rem;
+}
+
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 80%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gameBlock {
+    display: inline-block;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.click-item {
+    background-size: cover;
+    background-position: 50%;
+    height: 170px;
+    width: 170px;
+    margin: 8px 25px;
+    border: 5px solid #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    cursor: pointer
+}
+
+.click-item:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s
+}
+
+.footerBlock {
+    background: #888888;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: auto
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    font-weight: 600;
+    background: #666666;
+}
+
+.footer span {
+    font-size: 16px;
+}
+
+.footer img {
+    width: 20px;
+    position: relative;
+    top: -2px;
+    left: 2px
+}

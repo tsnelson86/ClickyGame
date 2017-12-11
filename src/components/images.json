@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dog1",
+    "image": "https://i.pinimg.com/170x/ea/d4/d0/ead4d04295e5294cb59b1ad2f86288d5--medium-dog-breeds-medium-dogs.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dog2",
+    "image": "https://i.pinimg.com/170x/e4/c4/88/e4c488a29658086befaa4fc5589ce3ba--eurasier-cattle-dog.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dog3",
+    "image": "https://i.pinimg.com/170x/44/6c/c0/446cc006d0e2113a9686260532c206b1--dog-search-german-shepherd-dogs.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dog4",
+    "image": "https://i.pinimg.com/170x/49/9f/4b/499f4b14e2c2a88b73906090a6461ca2--dog-gates-free-dogs.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dog5",
+    "image": "https://i.pinimg.com/170x/91/d0/cc/91d0ccf320b85ae20703ee917feb6a32--rottweiler-temperament-rottweiler-dog.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dog6",
+    "image": "https://i.pinimg.com/170x/a4/a3/da/a4a3daeeb43131a1ca51ee51d3b98f37--dog-varieties-wild-dogs.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dog7",
+    "image": "https://i.pinimg.com/170x/45/b5/ef/45b5efdac8167fd79f55e4bd2cbe3379--blue-heelers-australian-cattle-dog.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dog8",
+    "image": "https://static9.depositphotos.com/1594920/1086/i/170/depositphotos_10864587-stock-photo-bernese-mountain-dog.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dog9",
+    "image": "https://i.pinimg.com/170x/fa/e6/75/fae6756dc5a601e79ee84e0f6a652827--large-dog-breeds-large-dogs.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dog10",
+    "image": "https://st3.depositphotos.com/1606449/12567/i/170/depositphotos_125670786-stock-photo-happy-purebred-pug-dog.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dog11",
+    "image": "http://animalhosp.com/wp-content/uploads/2017/03/pet-insurance-dog.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Dog12",
+    "image": "https://i.pinimg.com/170x/6b/34/99/6b3499e57dec70c5546c78465fb91734--newfoundland-puppies-hound-dog.jpg"
+  }
+]
