@@ -15,37 +15,43 @@ class App extends Component {
     score: 0
   };
 
-  componentDidMount() {
-    console.log(this.state.images[0].image);
-  }
-
-/*
-http://du.bootcampcontent.com/denver-coding-bootcamp/07-10-2017-DENVER-Class-Repository-FSF/tree/master/01-Class-Content/19-react/02-Homework
-
-https://clicky-game.netlify.com/
-
-The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
-Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
-Once the user's score is reset after an incorrect guess, the game should restart.
-
-*/
-
   setClick = id => {
-    const images = this.state.images.filter(images => images.id !== id);
-    this.setState({ images });
+		let currentIndex = this.state.images.findIndex( function (image) {
+			return (id == image.id);
+		});
+  	if (this.state.images[currentIndex].guessed === "no") {
+  		let newImageSet = images.slice(0);
+  		newImageSet[currentIndex].guessed = "yes";
+  		this.setState({
+  			score: this.state.score + 1,
+        bestScore: this.state.score,
+  			images: newImageSet,
+  			gameNotice: "Correct! Click another image to keep going."
+  		});
+      this.setState({
+        images: this.randomize()
+      });
+  	} else {
+  		this.setState({
+  			images: images,
+  			bestScore: this.state.score,
+        score: 0,
+  			gameNotice: "Incorrect. Click another image to get started again."
+  		});
+      this.setState({
+        images: this.randomize()
+      });
+  	}
   };
 
-  setScore = score => {
-  	this.setState({ score: this.state.score + 1 });
-  };
-
-  setHighScore = score => {
-  	this.setState({ count: this.state.score + 1 });
-  };
-
-  isRight = score => {
-
-  };
+  randomize = () => {
+    let randomImageSet = images.slice(0);
+    for (let i = randomImageSet.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [randomImageSet[i], randomImageSet[j]] = [randomImageSet[j], randomImageSet[i]];
+    }
+    return randomImageSet;
+  }
 
   render() {
 	  return(
